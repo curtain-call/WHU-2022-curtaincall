@@ -1,4 +1,9 @@
 ## github版本控制经验记录
+- 更改缓存：
+- 更改仓库缓存边带
+  全局的：git config –global sendpack.sideband false
+  仓库的：git config –local sendpack.sideband false
+- 先git pull再push
 
 ## subdirectory my_json_parser
 
