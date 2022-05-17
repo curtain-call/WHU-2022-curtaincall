@@ -11,4 +11,4 @@ add_library (parser_lib STATIC "src/praser_lite.cpp" "header/praser_lite.h" "hea
 # TODO: 如有需要，请添加测试并安装目标。
 set(CMAKE_CXX_STANDARD 11)
 
-#target_link_libraries(${PROJECT_NAME} jsoncpp_lib)
+#target_link_libraries(${PROJECT_NAME} jsoncpp_lib) 

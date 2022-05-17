@@ -4,4 +4,4 @@
 add_executable(parser_tst "main.cpp" "parser_test.cpp")
 add_test(NAME parser_tst COMMAND parser_tst)
 # 链接src生成的lib库和gtest库,自然完成测试
-target_link_libraries(parser_tst PUBLIC parser_lib gtest)
+target_link_libraries(parser_tst PUBLIC parser_lib gtest) 

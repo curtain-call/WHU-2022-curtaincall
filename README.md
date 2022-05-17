@@ -5,7 +5,10 @@
   仓库的：git config –local sendpack.sideband false
 - 先git pull再push
 
-## subdirectory my_json_parser
+## CMake
+
+引入外部库时不能使用fetchcontent，因为vs2017的支持直到v3.12
+## subdirectory
 
 ### my_json_parser
 - 采用googletest搭建测试框架

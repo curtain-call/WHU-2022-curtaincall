@@ -13,7 +13,7 @@ J_VALUE::J_VALUE(){
 J_VALUE::J_VALUE(const J_VALUE& a) {
 
 }
-
+ 
 j_type J_VALUE::getType(const J_VALUE *a)
 {
 	return a->type;
